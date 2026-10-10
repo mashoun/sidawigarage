@@ -117,6 +117,7 @@ export const OpeningHourSchema = z.object({
 export const GarageProfileSchema = z.object({
   name: z.string().min(1),
   owner: z.string().min(1),
+  ownerImage: z.string().optional(),
   tagline: z.string().min(1),
   bio: z.string().min(1),
   phone: z.string().min(1),

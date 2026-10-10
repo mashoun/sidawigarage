@@ -19,6 +19,12 @@ export const useJsonLd = () => {
       telephone: garageData.phone,
       priceRange: '$$',
       image: `${baseUrl}/images/sidawi-garage-og.jpg`,
+      founder: {
+        '@type': 'Person',
+        name: garageData.owner,
+        image: `${baseUrl}${garageData.ownerImage || '/images/mahmoud-sidawi.webp'}`,
+        jobTitle: 'Automotive Tribology Specialist',
+      },
       address: {
         '@type': 'PostalAddress',
         streetAddress: garageData.address.street,

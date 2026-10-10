@@ -41,6 +41,7 @@
     "zod": "^4.6.5"
   },
   "devDependencies": {
+    "@iconify-json/lucide": "^1.2.142",
     "sharp": "^0.35.5"
   }
 }

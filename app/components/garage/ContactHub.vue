@@ -12,14 +12,25 @@ const directWhatsAppUrl = computed(() => {
 <template>
   <div class="rounded-3xl border border-white/10 bg-zinc-900/60 p-6 sm:p-8 backdrop-blur-xl space-y-6">
     <div>
-      <div class="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400 mb-3">
+      <div class="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3 py-1 text-xs font-semibold text-emerald-400 mb-4">
         <span class="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
         <span>Open for Inquiries & Bookings</span>
       </div>
-      <h3 class="text-2xl font-bold text-white tracking-tight">Connect with Mahmoud Sidawi</h3>
-      <p class="text-xs text-zinc-400 mt-1">
-        Direct communication with the garage owner. Fast response for oil consultations, OEM approvals, and scheduling.
-      </p>
+      <div class="flex items-center gap-4">
+        <div class="relative h-16 w-16 sm:h-20 sm:w-20 rounded-2xl overflow-hidden border-2 border-amber-500/40 shrink-0 shadow-lg bg-zinc-900 group">
+          <img
+            :src="garageData.ownerImage || '/images/mahmoud-sidawi-avatar.webp'"
+            :alt="garageData.owner"
+            class="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div>
+          <h3 class="text-xl sm:text-2xl font-bold text-white tracking-tight">Connect with Mahmoud Sidawi</h3>
+          <p class="text-xs text-zinc-400 mt-1">
+            Direct communication with the garage owner. Fast response for oil consultations, OEM approvals, and scheduling.
+          </p>
+        </div>
+      </div>
     </div>
 
     <!-- Quick Action Cards Grid -->

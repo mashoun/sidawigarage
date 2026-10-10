@@ -93,40 +93,46 @@ import garageData from '~~/content/data/garage.json';
                   <UIcon name="i-lucide-award" class="w-3.5 h-3.5 text-amber-400 shrink-0" />
                   <span>Master Craftsman</span>
                 </div>
-                <div class="inline-flex items-center gap-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/30 px-2.5 py-0.5 text-[10px] font-bold text-emerald-400 shadow-sm shadow-emerald-500/10">
-                  <span class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                  <span>Active in Workshop</span>
+                <div class="inline-flex items-center gap-1 text-[10px] sm:text-[11px] font-mono tracking-widest uppercase text-zinc-400">
+                  <UIcon name="i-lucide-map-pin" class="w-3 h-3 text-amber-400 shrink-0" />
+                  <span>Beirut, LB</span>
                 </div>
               </div>
 
-              <!-- Profile Identity Header (Zero Truncation, Prestige Badge) -->
-              <div class="flex items-center gap-3.5 sm:gap-4 relative z-10">
-                <!-- Luxury Monogram Seal -->
-                <div class="relative flex h-15 w-15 sm:h-17 sm:w-17 shrink-0 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-400/20 via-zinc-900 to-black border-2 border-amber-500/40 shadow-inner group-hover:border-amber-400/80 transition-all">
-                  <!-- Radial Amber Glow Ring -->
-                  <div class="absolute inset-0 rounded-2xl bg-amber-500/10 blur-xs" />
-                  <span class="relative z-10 text-xl sm:text-2xl font-black tracking-wider bg-gradient-to-br from-amber-100 via-amber-300 to-amber-500 bg-clip-text text-transparent select-none">
-                    MS
-                  </span>
-                  <!-- Certified Specialist Overlay Check -->
-                  <div class="absolute -bottom-1 -right-1 flex h-5 w-5 items-center justify-center rounded-full bg-emerald-500 text-zinc-950 ring-2 ring-zinc-900 shadow" title="Certified Tribologist">
-                    <UIcon name="i-lucide-check" class="w-3 h-3 stroke-[3]" />
+              <!-- Featured Craftsman Portrait Showcase (Large High-Impact Visual) -->
+              <div class="relative z-10 space-y-2.5">
+                <div class="relative w-full aspect-[3/4] sm:aspect-[16/10] rounded-2xl overflow-hidden border border-amber-500/30 shadow-2xl bg-zinc-950 group/img">
+                  <img
+                    :src="garageData.ownerImage || '/images/mahmoud-sidawi.webp'"
+                    :alt="`${garageData.owner} - Automotive Tribology Specialist`"
+                    class="w-full h-full object-cover object-[center_20%] transition-transform duration-700 group-hover/img:scale-105"
+                    loading="lazy"
+                  />
+                  <!-- Gradient overlays for readability and luxury depth -->
+                  <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent" />
+                  <div class="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl" />
+
+                  <!-- Floating Identity Caption at bottom of photo -->
+                  <div class="absolute bottom-3 inset-x-3 text-left">
+                    <h3 class="text-xl sm:text-2xl font-black text-white tracking-tight drop-shadow-md">
+                      {{ garageData.owner }}
+                    </h3>
+                    <p class="text-xs text-amber-300 font-medium tracking-wide flex items-center gap-1.5 mt-0.5 drop-shadow-sm">
+                      <UIcon name="i-lucide-wrench" class="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                      <span>Automotive Tribology Specialist</span>
+                    </p>
                   </div>
                 </div>
 
-                <!-- Identity Details (Always cleanly formatted) -->
-                <div class="min-w-0 flex-1">
-                  <h3 class="text-xl sm:text-2xl font-black text-white tracking-tight leading-snug">
-                    {{ garageData.owner }}
-                  </h3>
-                  <p class="text-xs sm:text-[13px] text-amber-400/90 font-medium tracking-wide flex items-center gap-1.5 mt-0.5">
-                    <UIcon name="i-lucide-wrench" class="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                    <span>Automotive Tribology Specialist</span>
-                  </p>
-                  <p class="text-[11px] text-zinc-400 flex items-center gap-1.5 mt-1">
-                    <UIcon name="i-lucide-map-pin" class="w-3 h-3 text-zinc-500 shrink-0" />
-                    <span>Sidawi Garage · Musharrafieh, Beirut</span>
-                  </p>
+                <!-- Workshop Location Bar -->
+                <div class="flex items-center justify-between text-[11px] text-zinc-400 px-1 pt-0.5">
+                  <span class="flex items-center gap-1.5 truncate">
+                    <UIcon name="i-lucide-map-pin" class="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                    <span class="truncate">Sidawi Garage · Musharrafieh, Beirut</span>
+                  </span>
+                  <span class="text-emerald-400 font-semibold text-[10px] uppercase tracking-wider shrink-0 ml-2">
+                    Verified
+                  </span>
                 </div>
               </div>
 

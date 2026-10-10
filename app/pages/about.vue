@@ -32,7 +32,7 @@ useHead({
         'Learn about Mahmoud Sidawi, his deep education in automotive lubrication, and why Sidawi Garage is the certified benchmark for Liqui Moly, Addinol, and Castrol in Lebanon.',
     },
     { property: 'og:url', content: 'https://sidawigarage.com/about' },
-    { property: 'og:image', content: 'https://sidawigarage.com/images/sidawi-garage-og.jpg' },
+    { property: 'og:image', content: 'https://sidawigarage.com/images/mahmoud-sidawi.jpg' },
     { name: 'twitter:card', content: 'summary_large_image' },
     { name: 'twitter:title', content: 'About Mahmoud Sidawi & The Oil Lab | Sidawi Garage' },
     {
@@ -40,7 +40,7 @@ useHead({
       content:
         'Learn about Mahmoud Sidawi, his deep education in automotive lubrication, and why Sidawi Garage is the certified benchmark for Liqui Moly, Addinol, and Castrol in Lebanon.',
     },
-    { name: 'twitter:image', content: 'https://sidawigarage.com/images/sidawi-garage-og.jpg' },
+    { name: 'twitter:image', content: 'https://sidawigarage.com/images/mahmoud-sidawi.jpg' },
   ],
   link: [
     { rel: 'canonical', href: 'https://sidawigarage.com/about' },
@@ -157,26 +157,32 @@ useHead({
             <!-- Subtle ambient corner glow -->
             <div class="absolute -top-16 -right-16 w-36 h-36 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
 
-            <!-- Profile Header -->
-            <div class="text-center relative z-10">
-              <div class="relative mx-auto mb-4 flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-amber-400/20 via-zinc-900 to-black border border-amber-500/40 shadow-inner group-hover:border-amber-400/60 transition-colors">
-                <span class="text-3xl font-black tracking-wider bg-gradient-to-br from-amber-200 via-amber-400 to-amber-500 bg-clip-text text-transparent select-none">MS</span>
-                <span class="absolute -bottom-1 -right-1 flex h-6 w-6 items-center justify-center rounded-full bg-emerald-500 text-zinc-950 ring-2 ring-zinc-900 shadow" title="Certified Specialist">
-                  <UIcon name="i-lucide-check" class="w-3.5 h-3.5 stroke-[3]" />
-                </span>
+            <!-- Profile Portrait Presentation -->
+            <div class="relative z-10 space-y-4">
+              <div class="relative w-full aspect-[3/4] sm:aspect-[4/5] rounded-2xl overflow-hidden border border-amber-500/30 shadow-2xl bg-zinc-950 group/img">
+                <img
+                  :src="garageData.ownerImage || '/images/mahmoud-sidawi.webp'"
+                  :alt="`${garageData.owner} - Automotive Lubrication Specialist`"
+                  class="w-full h-full object-cover object-top transition-transform duration-700 group-hover/img:scale-105"
+                  loading="eager"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-950/20 to-transparent" />
+                <div class="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-2xl" />
+
+                <!-- Floating Caption at bottom of photo -->
+                <div class="absolute bottom-3 inset-x-3 text-left">
+                  <h3 class="text-xl sm:text-2xl font-black text-white tracking-tight drop-shadow-md">
+                    {{ garageData.owner }}
+                  </h3>
+                  <p class="text-xs text-amber-300 font-medium tracking-wide flex items-center gap-1.5 mt-0.5 drop-shadow-sm">
+                    <UIcon name="i-lucide-wrench" class="w-3.5 h-3.5 text-amber-400 shrink-0" />
+                    <span>Automotive Oil & Transmission Specialist</span>
+                  </p>
+                  <p class="text-[11px] text-zinc-300 mt-0.5">
+                    Founder, Sidawi Garage
+                  </p>
+                </div>
               </div>
-              <div class="flex items-center justify-center gap-2">
-                <h3 class="text-xl font-extrabold text-white tracking-tight">{{ garageData.owner }}</h3>
-                <span class="inline-flex items-center gap-1 rounded-full bg-emerald-500/10 border border-emerald-500/25 px-2 py-0.5 text-[10px] font-semibold text-emerald-400">
-                  <span class="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                  Verified
-                </span>
-              </div>
-              <p class="text-xs text-amber-400 font-medium tracking-wide flex items-center justify-center gap-1.5 mt-1">
-                <UIcon name="i-lucide-wrench" class="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                <span>Automotive Oil & Transmission Specialist</span>
-              </p>
-              <p class="text-xs text-zinc-400 mt-1">Founder, Sidawi Garage</p>
             </div>
 
             <!-- Structured Spec Rows -->

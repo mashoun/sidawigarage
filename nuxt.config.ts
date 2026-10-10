@@ -11,6 +11,14 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: false },
 
+  icon: {
+    clientBundle: {
+      scan: true,
+      sizeLimitKb: 512,
+    },
+    provider: 'iconify',
+  },
+
   components: [
     {
       path: '~/components',

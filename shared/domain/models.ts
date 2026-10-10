@@ -120,6 +120,7 @@ export interface OpeningHour {
 export interface GarageProfile {
   name: string;
   owner: string;
+  ownerImage?: string;
   tagline: string;
   bio: string;
   phone: string;
