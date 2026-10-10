@@ -1,0 +1,254 @@
+[
+  {
+    "id": "reel-vw-golf-liquimoly",
+    "title": "Volkswagen Golf: High-Performance Engine Oil Service & Inspection",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeT850IKUHL/",
+    "thumbnail": "/images/reels/DeT850IKUHL.jpg",
+    "vehicle": "Volkswagen Golf VII",
+    "serviceType": "motor_oil",
+    "oilUsed": "Liqui Moly Top Tec 4200 5W-30",
+    "duration": "0:45",
+    "dateServiced": "2026-04-05",
+    "description": "Full oil change and multi-point health check for Volkswagen Golf at Sidawi Garage Musharrafieh. Draining old degraded fluid, installing OEM filter, and filling premium synthetic German motor oil.",
+    "tags": [
+      "Volkswagen Golf",
+      "Liqui Moly",
+      "German Oil",
+      "Engine Service"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/DeT850IKUHL.mp4"
+  },
+  {
+    "id": "reel-jeep-cherokee-drivetrain",
+    "title": "Jeep Grand Cherokee: Heavy-Duty 4x4 Synthetic Fluid Service",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeRWgbYKVme/",
+    "thumbnail": "/images/reels/DeRWgbYKVme.jpg",
+    "vehicle": "Jeep Grand Cherokee 4x4",
+    "serviceType": "differential",
+    "oilUsed": "Addinol Getriebeöl GH 75W-90 Synthetic",
+    "duration": "0:52",
+    "dateServiced": "2026-04-03",
+    "description": "Heavy-duty drivetrain and engine lubrication service on Jeep Grand Cherokee. Engineered for thermal stability, high shear protection, and severe Lebanese driving conditions.",
+    "tags": [
+      "Jeep Cherokee",
+      "Differential Oil",
+      "Addinol Germany",
+      "4x4 Service"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/DeRWgbYKVme.mp4"
+  },
+  {
+    "id": "reel-toyota-vvti-castrol",
+    "title": "Toyota VVT-i: Precision Synthetic Oil Change & Filter Replacement",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeO2QRBqADx/",
+    "thumbnail": "/images/reels/DeO2QRBqADx.jpg",
+    "vehicle": "Toyota Camry VVT-i",
+    "serviceType": "motor_oil",
+    "oilUsed": "Castrol EDGE 5W-30 Advanced Full Synthetic",
+    "duration": "0:48",
+    "dateServiced": "2026-04-01",
+    "description": "Servicing Toyota VVT-i powertrain with low-viscosity Castrol EDGE synthetic formulation for maximum engine cleanliness and timing chain longevity at Garage Sidawi.",
+    "tags": [
+      "Toyota",
+      "Castrol EDGE",
+      "VVT-i",
+      "Engine Maintenance"
+    ],
+    "featured": false,
+    "videoUrl": "/videos/reels/DeO2QRBqADx.mp4"
+  },
+  {
+    "id": "reel-kia-addinol-service",
+    "title": "Kia Motors: Synthetic Oil Service & Crankcase Inspection",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeMNjP0KRmT/",
+    "thumbnail": "/images/reels/DeMNjP0KRmT.jpg",
+    "vehicle": "Kia Sportage GDI",
+    "serviceType": "motor_oil",
+    "oilUsed": "Addinol Super Light 0540 (API SP)",
+    "duration": "0:40",
+    "dateServiced": "2026-03-29",
+    "description": "Complete oil and filter service on Kia at our Musharrafieh workshop. Inspecting lubrication channels and filling German Addinol Super Light to prevent piston deposits.",
+    "tags": [
+      "Kia Sportage",
+      "Addinol",
+      "Engine Care",
+      "Lebanon Garage"
+    ],
+    "featured": false,
+    "videoUrl": "/videos/reels/DeMNjP0KRmT.mp4"
+  },
+  {
+    "id": "reel-bmw-x5-e53-liquimoly",
+    "title": "BMW X5 E53: Vanos & M54 Engine Protection Service",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeJrTJYquhJ/",
+    "thumbnail": "/images/reels/DeJrTJYquhJ.jpg",
+    "vehicle": "BMW X5 (E53)",
+    "serviceType": "motor_oil",
+    "oilUsed": "Liqui Moly Leichtlauf High Tech 5W-40 (BMW LL-01)",
+    "duration": "1:00",
+    "dateServiced": "2026-03-26",
+    "description": "Dedicated oil service for the classic BMW X5 E53. Applying shear-resistant Liqui Moly 5W-40 meeting BMW LL-01 to ensure quiet Vanos operation and lifter protection.",
+    "tags": [
+      "BMW X5",
+      "E53",
+      "BMW LL-01",
+      "Liqui Moly"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/DeJrTJYquhJ.mp4"
+  },
+  {
+    "id": "reel-nissan-castrol-transmission",
+    "title": "Nissan: Closed-Loop Transmission & Gear Fluid Service",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeG9PVjqkai/",
+    "thumbnail": "/images/reels/DeG9PVjqkai.jpg",
+    "vehicle": "Nissan Patrol / X-Trail",
+    "serviceType": "transmission_flush",
+    "oilUsed": "Castrol Transmax Multi-Vehicle ATF / CVT",
+    "duration": "0:55",
+    "dateServiced": "2026-03-22",
+    "description": "Performing fluid replacement on Nissan automatic transmission at Garage Sidawi. Flushed with premium Castrol Transmax fluid for smooth shifts and cooler operating temperatures.",
+    "tags": [
+      "Nissan",
+      "Transmission Flush",
+      "Castrol Transmax",
+      "Smooth Shifting"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/DeG9PVjqkai.mp4"
+  },
+  {
+    "id": "reel-bmw-sedan-twinpower",
+    "title": "BMW Sedan: Turbocharged TwinPower Engine Oil Service",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/DeCCnGuK57f/",
+    "thumbnail": "/images/reels/DeCCnGuK57f.jpg",
+    "vehicle": "BMW 3-Series TwinPower Turbo",
+    "serviceType": "motor_oil",
+    "oilUsed": "Addinol Giga Light MV 0530 LL (BMW Longlife-04)",
+    "duration": "0:50",
+    "dateServiced": "2026-03-18",
+    "description": "Precision oil change with Addinol German Longlife-04 synthetic formulation on BMW turbo platform. High flash point and exceptional thermal stability under high boost.",
+    "tags": [
+      "BMW",
+      "TwinPower Turbo",
+      "Addinol Germany",
+      "BMW Longlife-04"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/DeCCnGuK57f.mp4"
+  },
+  {
+    "id": "reel-mercedes-addinol-mb2295",
+    "title": "Mercedes-Benz: Official Addinol MB-Approval 229.5 Lubrication",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/Dd_OUglKCc4/",
+    "thumbnail": "/images/reels/Dd_OUglKCc4.jpg",
+    "vehicle": "Mercedes-Benz C-Class / E-Class",
+    "serviceType": "motor_oil",
+    "oilUsed": "Addinol Super Light 0540 (MB-Approval 229.5)",
+    "duration": "0:54",
+    "dateServiced": "2026-03-15",
+    "description": "Direct service on Mercedes-Benz utilizing Addinol Super Light 0540 made in Germany. Complete fluid renewal meeting stringent Mercedes-Benz OEM engineering standards.",
+    "tags": [
+      "Mercedes-Benz",
+      "Addinol",
+      "MB 229.5",
+      "German Engineering"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/Dd_OUglKCc4.mp4"
+  },
+  {
+    "id": "reel-kia-transmission-fluid",
+    "title": "Kia Sedan: Transmission Fluid Renewal & Filter Inspection",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/Dd8pSByq6vX/",
+    "thumbnail": "/images/reels/Dd8pSByq6vX.jpg",
+    "vehicle": "Kia Cerato / Forte",
+    "serviceType": "transmission_flush",
+    "oilUsed": "Liqui Moly Top Tec ATF 1200",
+    "duration": "0:46",
+    "dateServiced": "2026-03-11",
+    "description": "Eliminating harsh gear engagement on Kia automatic gearbox. Refilling with synthetic Liqui Moly Top Tec ATF 1200 fluid with precise level adjustment at operating temperature.",
+    "tags": [
+      "Kia",
+      "Transmission Flush",
+      "Liqui Moly ATF",
+      "Gearbox Service"
+    ],
+    "featured": false,
+    "videoUrl": "/videos/reels/Dd8pSByq6vX.mp4"
+  },
+  {
+    "id": "reel-nissan-differential-transfer",
+    "title": "Nissan AWD: Differential & Transfer Case Fluid Renewal",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/Dd6LWIPq7C7/",
+    "thumbnail": "/images/reels/Dd6LWIPq7C7.jpg",
+    "vehicle": "Nissan AWD Crossover",
+    "serviceType": "differential",
+    "oilUsed": "Addinol Getriebeöl GH 75W-90 Synthetic",
+    "duration": "0:44",
+    "dateServiced": "2026-03-07",
+    "description": "Inspecting magnetic drain plug and flushing contaminated gear oil from Nissan front and rear differentials. Serviced with German Addinol 75W-90 for whisper-quiet differential gears.",
+    "tags": [
+      "Nissan",
+      "Differential Oil",
+      "Addinol 75W90",
+      "AWD Maintenance"
+    ],
+    "featured": false,
+    "videoUrl": "/videos/reels/Dd6LWIPq7C7.mp4"
+  },
+  {
+    "id": "reel-bmw-m-performance-molygen",
+    "title": "BMW Performance: High-Stress Molygen 5W-40 Lubrication",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/Dd3sCTpqe-J/",
+    "thumbnail": "/images/reels/Dd3sCTpqe-J.jpg",
+    "vehicle": "BMW M Performance Series",
+    "serviceType": "motor_oil",
+    "oilUsed": "Liqui Moly Molygen New Generation 5W-40",
+    "duration": "0:58",
+    "dateServiced": "2026-03-02",
+    "description": "Extreme performance maintenance on BMW at Sidawi Garage. Applying Liqui Moly Molygen with Tungsten-based molecular friction modifiers for maximum engine longevity and protection.",
+    "tags": [
+      "BMW",
+      "Molygen 5W40",
+      "Performance Oil",
+      "Zero Friction"
+    ],
+    "featured": true,
+    "videoUrl": "/videos/reels/Dd3sCTpqe-J.mp4"
+  },
+  {
+    "id": "reel-hyundai-i10-stopstart",
+    "title": "Hyundai Grand i10: Stop-Start City Driving Oil Service",
+    "platform": "instagram",
+    "url": "https://www.instagram.com/reel/Dd06AV7q4Ec/",
+    "thumbnail": "/images/reels/Dd06AV7q4Ec.jpg",
+    "vehicle": "Hyundai Grand i10",
+    "serviceType": "motor_oil",
+    "oilUsed": "Castrol MAGNATEC 5W-30 Stop-Start",
+    "duration": "0:42",
+    "dateServiced": "2026-02-26",
+    "description": "Tailored lubrication service for stop-and-go city commuting in Lebanon. Castrol Magnatec provides continuous cling protection against frequent engine restarts and heavy traffic.",
+    "tags": [
+      "Hyundai i10",
+      "Castrol Magnatec",
+      "City Commute",
+      "Stop-Start"
+    ],
+    "featured": false,
+    "videoUrl": "/videos/reels/Dd06AV7q4Ec.mp4"
+  }
+]

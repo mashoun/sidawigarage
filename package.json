@@ -1,0 +1,46 @@
+{
+  "name": "sidawi",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "test": "vitest run",
+    "postinstall": "nuxt prepare",
+    "deploy:hosting": "firebase deploy --only hosting"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^4.11.3",
+    "@tiptap/core": "^3.31.4",
+    "@tiptap/extension-bubble-menu": "^3.31.4",
+    "@tiptap/extension-code": "^3.31.4",
+    "@tiptap/extension-collaboration": "^3.31.4",
+    "@tiptap/extension-drag-handle": "^3.31.4",
+    "@tiptap/extension-drag-handle-vue-3": "^3.31.4",
+    "@tiptap/extension-floating-menu": "^3.31.4",
+    "@tiptap/extension-horizontal-rule": "^3.31.4",
+    "@tiptap/extension-image": "^3.31.4",
+    "@tiptap/extension-mention": "^3.31.4",
+    "@tiptap/extension-node-range": "^3.31.4",
+    "@tiptap/extension-placeholder": "^3.31.4",
+    "@tiptap/markdown": "^3.31.4",
+    "@tiptap/pm": "^3.31.4",
+    "@tiptap/starter-kit": "^3.31.4",
+    "@tiptap/suggestion": "^3.31.4",
+    "@tiptap/vue-3": "^3.31.4",
+    "@types/three": "^0.186.0",
+    "nuxt": "^4.6.0",
+    "tailwindcss": "^4.3.3",
+    "three": "^0.186.1",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

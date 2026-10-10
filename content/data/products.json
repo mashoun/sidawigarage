@@ -1,0 +1,309 @@
+[
+  {
+    "id": "liqui-moly-molygen-5w40",
+    "slug": "liqui-moly-molygen-new-generation-5w-40",
+    "brandId": "liqui-moly",
+    "name": "Liqui Moly Molygen New Generation 5W-40",
+    "category": "engine",
+    "viscosity": "5W-40",
+    "baseOilType": "High-Tech Low-Friction Synthetic (MFC Green)",
+    "image": "/images/products/liqui-moly-molygen-5w40.webp",
+    "description": "High-performance low-friction engine oil with innovative Molygen Molecular Friction Control (MFC) technology. Fluorescent green glow under UV light ensures instant leak identification. Significantly reduces friction losses in high-output turbo engines.",
+    "detailedSpecs": {
+      "flashPoint": "230 °C",
+      "pourPoint": "-45 °C",
+      "viscosityIndex": "173",
+      "density": "0.850 g/cm³"
+    },
+    "approvals": [
+      "ACEA A3/B4",
+      "API SN/CF",
+      "BMW Longlife-01",
+      "MB 229.5",
+      "Porsche A40",
+      "VW 502 00 / 505 00",
+      "Renault RN 0700 / 0710"
+    ],
+    "specifications": ["ACEA A3/B4", "API SN"],
+    "recommendedFor": [
+      "BMW N54 / N55 / S55 / B58 Turbo Engines",
+      "Mercedes-Benz AMG V8 & V6 Bi-Turbo",
+      "Porsche 911 / Cayman / Boxster",
+      "Volkswagen GTI / Golf R & Audi S3/S4/RS3"
+    ],
+    "sidawiNote": "My top choice for tuned and spirited European turbo cars in Lebanon's climate. The molecular tungsten/molybdenum friction modifier protects rod bearings under heavy boost and hot summer traffic.",
+    "inStock": true,
+    "volumeLiters": [1, 4, 5],
+    "featured": true
+  },
+  {
+    "id": "liqui-moly-super-leichtlauf-10w40",
+    "slug": "liqui-moly-super-leichtlauf-10w-40",
+    "brandId": "liqui-moly",
+    "name": "Liqui Moly Super Leichtlauf 10W-40",
+    "category": "engine",
+    "viscosity": "10W-40",
+    "baseOilType": "High Tech Synthese Technology",
+    "image": "/images/products/liqui-moly-super-leichtlauf-10w40.webp",
+    "description": "High-tech low-viscosity engine oil formulated with advanced German synthesis technology. Outstanding dirt-suspending and cleaning power prevents black sludge formation and keeps engine seals flexible.",
+    "detailedSpecs": {
+      "flashPoint": "228 °C",
+      "pourPoint": "-36 °C",
+      "viscosityIndex": "154",
+      "density": "0.865 g/cm³"
+    },
+    "approvals": [
+      "ACEA A3/B4",
+      "API SN/CF",
+      "MB-Approval 229.1 / 229.3",
+      "VW 501 01 / 505 00",
+      "Peugeot Citroen (PSA) B71 2300",
+      "Renault RN 0700 / 0710"
+    ],
+    "specifications": ["ACEA A3/B4", "API SN"],
+    "recommendedFor": [
+      "Naturally aspirated & high-mileage gasoline engines",
+      "Mercedes-Benz M111 / M112 / M272 engines",
+      "BMW M50 / M52 / M54 six-cylinder engines",
+      "Peugeot / Citroen / Renault passenger vehicles"
+    ],
+    "sidawiNote": "An absolute staple at Sidawi Garage for high-mileage German sedans. High Tech Synthese Technology maintains film strength in hot Mediterranean summer drives and prevents oil consumption through valve seals.",
+    "inStock": true,
+    "volumeLiters": [1, 4, 5],
+    "featured": true
+  },
+  {
+    "id": "addinol-giga-light-0530",
+    "slug": "addinol-giga-light-mv-0530-ll",
+    "brandId": "addinol",
+    "name": "Addinol Giga Light MV 0530 LL",
+    "category": "engine",
+    "viscosity": "5W-30",
+    "baseOilType": "100% Fully Synthetic (PAO Polyalphaolefin)",
+    "image": "/images/products/addinol-giga-light-0530.webp",
+    "description": "State-of-the-art Low-SAPS longlife engine oil formulated with high-purity synthetic PAO base oils. Delivers optimal fuel efficiency, minimum evaporation rate (Noack < 9%), and superior deposit resistance for Euro 5 and Euro 6 engines with DPF/GPF.",
+    "detailedSpecs": {
+      "flashPoint": "236 °C",
+      "pourPoint": "-48 °C",
+      "viscosityIndex": "168",
+      "density": "0.849 g/cm³"
+    },
+    "approvals": [
+      "BMW Longlife-04",
+      "MB-Approval 229.51",
+      "Porsche C30",
+      "VW 504 00 / 507 00"
+    ],
+    "specifications": ["ACEA C3", "API SP"],
+    "recommendedFor": [
+      "Modern BMW Diesel & Gasoline (2004+)",
+      "Mercedes-Benz BlueTEC & CGI Direct Injection",
+      "Audi / VW TDI & TFSI Engines",
+      "Porsche Macan / Cayenne V6 Diesel"
+    ],
+    "sidawiNote": "German synthetic purity at its absolute highest. If you want zero sludge buildup, factory DPF longevity, and rock-steady shear strength at 120°C oil temperatures, Addinol Giga Light is unmatched.",
+    "inStock": true,
+    "volumeLiters": [1, 4, 5],
+    "featured": true
+  },
+  {
+    "id": "castrol-edge-5w30-ll",
+    "slug": "castrol-edge-5w-30-ll-fluid-titanium",
+    "brandId": "castrol",
+    "name": "Castrol EDGE 5W-30 LL Fluid TITANIUM",
+    "category": "engine",
+    "viscosity": "5W-30",
+    "baseOilType": "Fluid TITANIUM Advanced Full Synthetic",
+    "image": "/images/products/castrol-edge-5w30-ll.webp",
+    "description": "Engineered with Fluid TITANIUM technology to transform under extreme pressure. Doubles film strength, preventing oil film breakdown and reducing friction by up to 20% compared to standard synthetic oils.",
+    "detailedSpecs": {
+      "flashPoint": "228 °C",
+      "pourPoint": "-42 °C",
+      "viscosityIndex": "165",
+      "density": "0.851 g/cm³"
+    },
+    "approvals": [
+      "BMW Longlife-04",
+      "MB-Approval 229.31 / 229.51",
+      "Porsche C30",
+      "VW 504 00 / 507 00"
+    ],
+    "specifications": ["ACEA C3"],
+    "recommendedFor": [
+      "BMW, Mercedes-Benz, Audi, and Volkswagen late-model sedans and SUVs",
+      "High-pressure Common Rail Diesel engines",
+      "Direct injection turbo petrol engines"
+    ],
+    "sidawiNote": "Castrol's titanium molecular matrix provides consistent cold-start lubrication and prevents valve-train wear in variable valve timing engines like VANOS and VTEC.",
+    "inStock": true,
+    "volumeLiters": [1, 4, 5],
+    "featured": true
+  },
+  {
+    "id": "addinol-super-light-0540",
+    "slug": "addinol-super-light-0540",
+    "brandId": "addinol",
+    "name": "Addinol Super Light 0540",
+    "category": "engine",
+    "viscosity": "5W-40",
+    "baseOilType": "High-SAPS Full Synthetic",
+    "image": "/images/products/addinol-super-light-0540.webp",
+    "description": "High-detergent full synthetic motor oil designed for severe operating conditions, spirited driving, and older performance engines requiring high HTHS and zinc/phosphorus anti-wear protection.",
+    "detailedSpecs": {
+      "flashPoint": "238 °C",
+      "pourPoint": "-40 °C",
+      "viscosityIndex": "172",
+      "density": "0.852 g/cm³"
+    },
+    "approvals": [
+      "BMW Longlife-01",
+      "MB-Approval 229.5 / 226.5",
+      "Porsche A40",
+      "VW 502 00 / 505 00",
+      "Renault RN 0700 / RN 0710"
+    ],
+    "specifications": ["ACEA A3/B4", "API SP"],
+    "recommendedFor": [
+      "Naturally aspirated and turbo performance cars without particulate filters",
+      "Mercedes M156 6.2L V8 AMG, M278/M157 V8 Bi-turbo",
+      "BMW E46 M3, E92 M3, E60 M5",
+      "Subaru WRX/STI Boxer engines"
+    ],
+    "sidawiNote": "The ultimate anti-wear shield for high-revving and track-oriented engines. Its heavy-duty TBN reserve neutralizes combustion acids even with inconsistent fuel grades.",
+    "inStock": true,
+    "volumeLiters": [1, 4, 5],
+    "featured": false
+  },
+  {
+    "id": "castrol-edge-supercar-10w60",
+    "slug": "castrol-edge-supercar-10w-60",
+    "brandId": "castrol",
+    "name": "Castrol EDGE SUPERCAR 10W-60",
+    "category": "engine",
+    "viscosity": "10W-60",
+    "baseOilType": "Fluid TITANIUM Motorsport Grade Synthetic",
+    "image": "/images/products/castrol-edge-supercar-10w60.webp",
+    "description": "Tested and proven in the pinnacle of supercar engineering. Engineered for high-stress motorsport environments, extreme bearing loads, and high RPM endurance.",
+    "detailedSpecs": {
+      "flashPoint": "240 °C",
+      "pourPoint": "-39 °C",
+      "viscosityIndex": "174",
+      "density": "0.853 g/cm³"
+    },
+    "approvals": [
+      "Approved for BMW M-Models",
+      "Approved for Koenigsegg engines",
+      "Approved for Aston Martin V8 Vantage"
+    ],
+    "specifications": ["ACEA A3/B4", "API SN/CF"],
+    "recommendedFor": [
+      "BMW E46 M3 (S54), E90/E92 M3 (S65 V8), E60 M5 (S85 V10)",
+      "Ferrari 360 / 430",
+      "Audi R8 V8 / V10"
+    ],
+    "sidawiNote": "Essential for BMW M naturally aspirated engines with rod bearing tolerances that demand ultra-thick high-temperature film retention.",
+    "inStock": true,
+    "volumeLiters": [1, 4, 5],
+    "featured": true
+  },
+  {
+    "id": "liqui-moly-top-tec-atf-1800",
+    "slug": "liqui-moly-top-tec-atf-1800",
+    "brandId": "liqui-moly",
+    "name": "Liqui Moly Top Tec ATF 1800",
+    "category": "transmission",
+    "viscosity": "ATF Low-Viscosity",
+    "baseOilType": "Synthetic Technology Low-Viscosity",
+    "image": "/images/products/liqui-moly-top-tec-atf-1800.webp",
+    "description": "New-generation high-performance low-viscosity automatic transmission fluid. Tailored for modern ZF 6HP, 8HP, and 9HP automatic gearboxes used in BMW, Audi, Land Rover, and Jaguar vehicles. Delivers seamless gear transitions and clutch pack protection.",
+    "detailedSpecs": {
+      "flashPoint": "208 °C",
+      "pourPoint": "-48 °C",
+      "viscosityIndex": "160",
+      "density": "0.845 g/cm³"
+    },
+    "approvals": [
+      "ZF TE-ML 11",
+      "BMW 83 22 2 152 426 / 83 22 2 305 397 (Lifeguard 8)",
+      "Dexron VI",
+      "MB 236.41",
+      "VW G 060 162"
+    ],
+    "specifications": ["JASO 1-A-LV"],
+    "recommendedFor": [
+      "ZF 6-Speed, 8-Speed, 9-Speed Torque Converter Transmissions",
+      "BMW Steptronic (F30, G20, G30, X5, X6)",
+      "Audi Tiptronic 8-Speed",
+      "Range Rover Sport & Vogue 8-Speed"
+    ],
+    "sidawiNote": "Automatic transmissions fail when serviced with incorrect fluid viscosity. This fluid exactly matches ZF Lifeguard 8 specs to ensure buttery-smooth gear shifts without hesitation or valve body slippage.",
+    "inStock": true,
+    "volumeLiters": [1, 5, 20],
+    "featured": true
+  },
+  {
+    "id": "castrol-transmax-dual",
+    "slug": "castrol-transmax-dual-multivehicle",
+    "brandId": "castrol",
+    "name": "Castrol Transmax DUAL / DKG",
+    "category": "transmission",
+    "viscosity": "DCT / DSG Fluid",
+    "baseOilType": "Smooth Drive Technology Full Synthetic",
+    "image": "/images/products/castrol-transmax-dual.webp",
+    "description": "Fully synthetic dual clutch transmission fluid featuring Smooth Drive Technology. Specially developed for wet dual-clutch transmissions (DSG, PDK, Powershift, DKG) with precise friction coefficient control.",
+    "detailedSpecs": {
+      "flashPoint": "210 °C",
+      "pourPoint": "-51 °C",
+      "viscosityIndex": "170",
+      "density": "0.852 g/cm³"
+    },
+    "approvals": [
+      "VW G 052 529 / G 052 182 (DQ250, DQ500, DL501)",
+      "BMW DCTF-1 (M-DKG Dual Clutch)",
+      "Porsche Dual Clutch Transmission (PDK)",
+      "Ford WSS-M2C-936-A"
+    ],
+    "specifications": ["API GL-4"],
+    "recommendedFor": [
+      "Volkswagen / Audi DSG 6-Speed & 7-Speed wet clutch",
+      "BMW M3 / M4 / M5 Dual Clutch DKG",
+      "Porsche PDK 7-speed wet clutch systems"
+    ],
+    "sidawiNote": "Dual clutch systems rely on exact mechatronic oil pressures and friction disc stabilization. A complete flush with Transmax Dual eliminates low-speed clutch shudder completely.",
+    "inStock": true,
+    "volumeLiters": [1, 5],
+    "featured": true
+  },
+  {
+    "id": "addinol-getriebeoel-gh-75w90",
+    "slug": "addinol-getriebeoel-gh-75w90",
+    "brandId": "addinol",
+    "name": "Addinol Getriebeöl GH 75W-90",
+    "category": "differential",
+    "viscosity": "75W-90",
+    "baseOilType": "Fully Synthetic Hypoid Gear Oil",
+    "image": "/images/products/addinol-getriebeoel-gh-75w90.webp",
+    "description": "Fully synthetic heavy-duty hypoid gear oil for manual transmissions, transfer cases, and high-load differentials. Formulated with extreme-pressure (EP) additives for extreme shock load resistance.",
+    "detailedSpecs": {
+      "flashPoint": "220 °C",
+      "pourPoint": "-48 °C",
+      "viscosityIndex": "180",
+      "density": "0.865 g/cm³"
+    },
+    "approvals": [
+      "ZF TE-ML 05A, 12L, 16B, 19B, 21A",
+      "MAN 342 Typ S1 / S2",
+      "Scania STO 1:0"
+    ],
+    "specifications": ["API GL-4 / GL-5 / MT-1"],
+    "recommendedFor": [
+      "Rear and front differentials for BMW, Mercedes, Audi Quattro",
+      "4x4 Transfer cases (Jeep, Toyota Land Cruiser, Nissan Patrol)",
+      "High performance manual gearboxes"
+    ],
+    "sidawiNote": "Differential fluid is frequently neglected by standard mechanics. When changing differential oil with Addinol 75W-90, gear whine disappears and ring-and-pinion wear is stopped.",
+    "inStock": true,
+    "volumeLiters": [1, 20],
+    "featured": false
+  }
+]

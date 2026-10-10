@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+:root {
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  color-scheme: dark;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #08090C;
+  color: #F8F9FA;
+  overflow-x: hidden;
+}
+
+/* Apple-style ultra-thin subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #08090C;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3F3F46;
+}
+
+/* Frosted glass backdrop utility */
+.glass-panel {
+  background: rgba(18, 20, 26, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-pill {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.glass-pill:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Subtle fluid ambient gradient (Zero neon, organic metallic gold depth) */
+.ambient-glow {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(120px);
+  pointer-events: none;
+  opacity: 0.15;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ==========================================================================
+   Precision Scroll Reveal & Motion System (Apple/Porsche-Grade)
+   ========================================================================== */
+
+/* Only apply initial hidden state when client JS has initialized reveal-ready */
+html.reveal-ready .reveal-item {
+  opacity: 0;
+  will-change: transform, opacity, filter;
+  transition-property: transform, opacity, filter;
+  transition-duration: var(--reveal-duration, 1000ms);
+  transition-delay: var(--reveal-delay, 0ms);
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Reveal Direction Initial States */
+html.reveal-ready .reveal-item.reveal-fade-up,
+html.reveal-ready .reveal-item[data-reveal="fade-up"] {
+  transform: translate3d(0, 32px, 0);
+}
+
+html.reveal-ready .reveal-item.reveal-fade-down,
+html.reveal-ready .reveal-item[data-reveal="fade-down"] {
+  transform: translate3d(0, -32px, 0);
+}
+
+html.reveal-ready .reveal-item.reveal-fade-left,
+html.reveal-ready .reveal-item[data-reveal="fade-left"] {
+  transform: translate3d(36px, 0, 0);
+}
+
+html.reveal-ready .reveal-item.reveal-fade-right,
+html.reveal-ready .reveal-item[data-reveal="fade-right"] {
+  transform: translate3d(-36px, 0, 0);
+}
+
+html.reveal-ready .reveal-item.reveal-zoom-in,
+html.reveal-ready .reveal-item[data-reveal="zoom-in"] {
+  transform: scale(0.93);
+}
+
+html.reveal-ready .reveal-item.reveal-blur-in,
+html.reveal-ready .reveal-item[data-reveal="blur-in"] {
+  transform: translate3d(0, 24px, 0) scale(0.97);
+  filter: blur(10px);
+}
+
+/* Revealed Active State */
+html.reveal-ready .reveal-item.is-revealed {
+  opacity: 1 !important;
+  transform: translate3d(0, 0, 0) scale(1) !important;
+  filter: blur(0px) !important;
+}
+
+/* Free transform locks after transition completes so hover states work cleanly */
+html.reveal-ready .reveal-item.is-revealed.is-transitioned {
+  will-change: auto;
+  transform: none;
+}
+
+/* Subtle amber breathing glow pulse */
+@keyframes amberPulseGlow {
+  0%, 100% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.22;
+    transform: scale(1.04);
+  }
+}
+
+.ambient-pulse-glow {
+  animation: amberPulseGlow 6s ease-in-out infinite;
+}
+
+/* Scroll indicator bounce */
+@keyframes gentleBounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(6px);
+  }
+}
+
+.animate-gentle-bounce {
+  animation: gentleBounce 2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}

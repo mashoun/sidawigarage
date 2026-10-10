@@ -1,0 +1,78 @@
+[
+  {
+    "id": "liqui-moly",
+    "name": "Liqui Moly",
+    "tagline": "German Engineering Excellence & Molygen Innovation",
+    "country": "Germany",
+    "status": "Official Certified Reseller in Lebanon",
+    "logo": "/images/brands/liqui-moly.svg",
+    "badgeAccent": "#00519E",
+    "description": "Engineered and manufactured exclusively in Germany. World-renowned for patented molecular friction modifiers (MFC), high-shear resistance, and manufacturer-approved formulations for European sports and luxury vehicles.",
+    "popularLines": [
+      "Molygen New Generation",
+      "Top Tec Low SAPS Series",
+      "Special Tec F / LL",
+      "Top Tec ATF & Dual Clutch Fluids"
+    ],
+    "certificationsSummary": [
+      "BMW Longlife-01 / LL-04",
+      "Mercedes-Benz MB 229.5 / 229.52",
+      "Porsche A40 / C30",
+      "Volkswagen VW 504 00 / 507 00"
+    ],
+    "certificateImage": "/images/certificates/liqui-moly-cert.jpg",
+    "certificateTitle": "Official Liqui Moly Certified Partner & Reseller Certificate",
+    "certificateNumber": "LM-DE-LEB-2026-0842"
+  },
+  {
+    "id": "addinol",
+    "name": "Addinol",
+    "tagline": "The High-Performance German Lubricant Specialist",
+    "country": "Germany",
+    "status": "Official Certified Reseller in Lebanon",
+    "logo": "/images/brands/addinol.png",
+    "badgeAccent": "#E62211",
+    "description": "Addinol Germany produces ultra-premium lubricants with extreme thermal stability, low evaporation loss (Noack), and superior detergent capabilities. Favored by discerning enthusiasts and track-tuned German platforms.",
+    "popularLines": [
+      "Giga Light MV 0530 LL",
+      "Super Light 0540",
+      "Premium 0530 C3-DX",
+      "ATF XN Plus & Dual Transmission Fluids"
+    ],
+    "certificationsSummary": [
+      "BMW Longlife-04 / LL-12 FE",
+      "MB-Approval 229.51 / 229.52",
+      "VW 504 00 / 507 00",
+      "Porsche C30 / A40"
+    ],
+    "certificateImage": "/images/certificates/addinol-cert.jpg",
+    "certificateTitle": "Addinol Germany Authorized Reseller & Workshop Accreditation",
+    "certificateNumber": "AD-GER-BEY-2026-119"
+  },
+  {
+    "id": "castrol",
+    "name": "Castrol",
+    "tagline": "Fluid TITANIUM Technology Under Pressure",
+    "country": "United Kingdom",
+    "status": "Official Certified Reseller in Lebanon",
+    "logo": "/images/brands/castrol.svg",
+    "badgeAccent": "#00853F",
+    "description": "Castrol EDGE is engineered with Fluid TITANIUM technology that physically transforms its molecular structure under extreme pressures, doubling its film strength and eliminating engine metal-to-metal friction.",
+    "popularLines": [
+      "Castrol EDGE Professional",
+      "Castrol EDGE Extended Performance",
+      "Castrol Magnatec Intelligent Molecules",
+      "Castrol Transmax ATF & DSG Fluid"
+    ],
+    "certificationsSummary": [
+      "API SP / SN PLUS",
+      "ACEA C3 / C5",
+      "BMW Longlife-04",
+      "MB-Approval 229.51",
+      "Dexos2 / Dexos1 Gen 3"
+    ],
+    "certificateImage": "/images/certificates/castrol-cert.jpg",
+    "certificateTitle": "Castrol Certified Lubrication Specialist Accreditation",
+    "certificateNumber": "CAS-UK-LEV-2026-904"
+  }
+]

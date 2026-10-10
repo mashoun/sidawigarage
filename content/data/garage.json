@@ -1,0 +1,34 @@
+{
+  "name": "Sidawi Garage",
+  "owner": "Mahmoud Sidawi",
+  "tagline": "Protection at Every RPM",
+  "bio": "Certified reseller for Liqui Moly, Addinol, and Castrol in Lebanon. Specializing exclusively in engineered motor oil and transmission gear oil servicing with zero-compromise precision. Educated in automotive tribology, fluid shear stability, and OEM manufacturer specifications.",
+  "phone": "+961 76 850 301",
+  "whatsappNumber": "+96176850301",
+  "whatsappGroupUrl": "https://chat.whatsapp.com/SidawiGarageVIP",
+  "email": "contact@sidawigarage.com",
+  "address": {
+    "street": "Inside Hepco Station, Opp. Galerie Istikbal",
+    "area": "Sayyed Hadi Highway, Musharrafieh",
+    "city": "Beirut",
+    "country": "Lebanon",
+    "geo": {
+      "latitude": 33.855,
+      "longitude": 35.512
+    },
+    "googleMapsUrl": "https://maps.google.com/?q=33.855,35.512",
+    "appleMapsUrl": "https://maps.apple.com/?q=33.855,35.512"
+  },
+  "openingHours": [
+    { "days": "Monday - Friday", "hours": "8:30 AM - 6:30 PM", "isOpenToday": true },
+    { "days": "Saturday", "hours": "8:30 AM - 5:00 PM", "isOpenToday": false },
+    { "days": "Sunday", "hours": "Closed", "isOpenToday": false }
+  ],
+  "socials": {
+    "tiktok": "https://www.tiktok.com/@sidawi_garage",
+    "instagram": "https://www.instagram.com/mahmoud__sidawi/",
+    "youtube": "https://www.youtube.com/@sidawigarage",
+    "linkedin": "https://www.linkedin.com/in/mahmoud-sidawi"
+  },
+  "certifiedBrands": ["Liqui Moly", "Addinol", "Castrol"]
+}

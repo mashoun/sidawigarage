@@ -1,0 +1,46 @@
+[
+  {
+    "id": "review-01",
+    "clientName": "Karim El-Hage",
+    "vehicle": "BMW 430i Gran Coupe (F36)",
+    "serviceCompleted": "ZF 8HP Transmission Fluid Flush",
+    "oilUsed": "Liqui Moly Top Tec ATF 1800",
+    "rating": 5,
+    "comment": "Mahmoud is on another level of professionalism in Lebanon. My transmission used to have a noticeable jerk when downshifting from 3rd to 2nd. After the full flush and proper temperature leveling, the gearbox feels brand new and shifts like butter. He explained every step to me with passion.",
+    "date": "2026-03-20",
+    "verified": true
+  },
+  {
+    "id": "review-02",
+    "clientName": "Dr. Tarek Abboud",
+    "vehicle": "Porsche Cayenne S 3.6 Bi-Turbo",
+    "serviceCompleted": "Engine Oil & Filter Service",
+    "oilUsed": "Addinol Giga Light MV 0530 LL",
+    "rating": 5,
+    "comment": "I have been searching for an authentic certified dealer for Addinol in Lebanon for months. Mahmoud showed me the official distributor certificates and used exact torque specifications on the oil housing. The engine runs significantly cooler and quieter in Lebanese summer heat.",
+    "date": "2026-03-29",
+    "verified": true
+  },
+  {
+    "id": "review-03",
+    "clientName": "Samer Khoury",
+    "vehicle": "Mercedes-AMG A45 S",
+    "serviceCompleted": "Engine Oil & Dual-Clutch Transmission Service",
+    "oilUsed": "Liqui Moly Molygen 5W-40 & Castrol Transmax Dual",
+    "rating": 5,
+    "comment": "When driving a 421 HP 2.0L engine, you cannot afford cheap or counterfeit oil. Mahmoud Sidawi is an oil encyclopaedia. His video reel of my car was great to watch, and the peace of mind he gives you is priceless. Highly recommended!",
+    "date": "2026-04-12",
+    "verified": true
+  },
+  {
+    "id": "review-04",
+    "clientName": "Marc Salameh",
+    "vehicle": "Golf GTI Clubsport",
+    "serviceCompleted": "DSG Oil Service & Engine Flush",
+    "oilUsed": "Castrol EDGE 5W-30 LL & Castrol Transmax Dual",
+    "rating": 5,
+    "comment": "The cleanest garage I have ever visited in Lebanon. No oil drips on the chassis, no rush, everything calculated and spotless. You can tell Mahmoud treats your car as if it was his own vehicle.",
+    "date": "2026-04-25",
+    "verified": true
+  }
+]
