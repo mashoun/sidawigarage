@@ -10,10 +10,10 @@ const scrollToTop = () => {
 </script>
 
 <template>
-  <footer class="relative overflow-hidden border-t border-white/10 bg-[#060709] pt-16 pb-12 text-zinc-400">
+  <footer class="relative overflow-hidden w-full max-w-full border-t border-white/10 bg-[#060709] pt-16 pb-12 text-zinc-400">
     <!-- Subtle ambient lighting -->
-    <div class="ambient-glow -top-32 left-1/3 w-96 h-48 bg-amber-500/10 pointer-events-none" />
-    <div class="ambient-glow bottom-0 right-10 w-80 h-32 bg-emerald-500/5 pointer-events-none" />
+    <div class="ambient-glow -top-32 left-1/4 w-96 h-48 bg-amber-500/10 pointer-events-none" />
+    <div class="ambient-glow bottom-0 right-4 w-72 h-32 bg-emerald-500/5 pointer-events-none" />
 
     <div class="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-4 gap-10 pb-12 border-b border-white/10">

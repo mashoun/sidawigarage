@@ -6,11 +6,17 @@
   color-scheme: dark;
 }
 
+html {
+  font-family: var(--font-sans);
+  background-color: #08090C;
+  color: #F8F9FA;
+}
+
 body {
   font-family: var(--font-sans);
   background-color: #08090C;
   color: #F8F9FA;
-  overflow-x: hidden;
+  min-height: 100vh;
 }
 
 /* Apple-style ultra-thin subtle scrollbar */
@@ -95,12 +101,12 @@ html.reveal-ready .reveal-item[data-reveal="fade-down"] {
 
 html.reveal-ready .reveal-item.reveal-fade-left,
 html.reveal-ready .reveal-item[data-reveal="fade-left"] {
-  transform: translate3d(36px, 0, 0);
+  transform: translate3d(16px, 0, 0);
 }
 
 html.reveal-ready .reveal-item.reveal-fade-right,
 html.reveal-ready .reveal-item[data-reveal="fade-right"] {
-  transform: translate3d(-36px, 0, 0);
+  transform: translate3d(-16px, 0, 0);
 }
 
 html.reveal-ready .reveal-item.reveal-zoom-in,

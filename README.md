@@ -1,75 +1,54 @@
-# Nuxt Minimal Starter
+# Sidawi Garage
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+> Precision Automotive Lubrication & Fluid Dynamics Web Application  
+> Certified reseller for **Liqui Moly**, **Addinol**, and **Castrol** in Lebanon — Founded by Mahmoud Sidawi.
 
-## Setup
+---
 
-Make sure to install dependencies:
+## ⚡ Quick Start
 
 ```bash
-# npm
+# 1. Install dependencies
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+# 2. Run local development server (http://localhost:3000)
 npm run dev
 
-# pnpm
-pnpm dev
+# 3. Run automated test suite (23 tests)
+npm test
 
-# yarn
-yarn dev
+# 4. Generate static prerendered production site (.output/public)
+npm run generate
 
-# bun
-bun run dev
+# 5. Deploy to Firebase Hosting
+npm run deploy:hosting
 ```
 
-## Production
+---
 
-Build the application for production:
+## 📚 Documentation
 
-```bash
-# npm
-npm run build
+Comprehensive project documentation is maintained in the [`docs/`](./docs) directory:
 
-# pnpm
-pnpm build
+- 📑 **[Documentation Master Index](./docs/README.md)** — Project overview, tech matrix, and directory map.
+- 🏛️ **[Architecture Guide](./docs/architecture.md)** — Clean Architecture, SSG prerendering, and hydration strategies.
+- 🗂️ **[Data Layer & Schemas](./docs/data-layer.md)** — Domain models, repositories, Zod schemas, and data entry guides.
+- 🎨 **[Components & UI System](./docs/components-and-ui.md)** — Nuxt UI v4, Tailwind CSS v4, and Three.js 3D WebGL shader mechanics.
+- 🪝 **[Composables, Plugins & Utilities](./docs/composables-and-plugins.md)** — Reactive state, `v-reveal` scroll directive, and WhatsApp deep link builder.
+- 🔍 **[SEO & Structured Data](./docs/seo-and-structured-data.md)** — Schema.org JSON-LD, Open Graph meta tags, and automated XML sitemap.
+- 🧪 **[Testing Suite & QA](./docs/testing.md)** — Vitest test architecture, domain unit tests, and validation suites.
+- 🛠️ **[Tooling & Automation Scripts](./docs/tooling-and-scripts.md)** — Instagram Reels cache scraper, Sharp OG generator, and headless Chrome audits.
+- 🚀 **[Deployment & Operations Guide](./docs/deployment-and-operations.md)** — Firebase Hosting setup, production deployment, and maintenance checklist.
 
-# yarn
-yarn build
+---
 
-# bun
-bun run build
-```
+## 🛠️ Tech Stack
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- **Framework**: [Nuxt 4](https://nuxt.com/) (Vue 3.5, TypeScript)
+- **UI Components**: [Nuxt UI v4](https://ui.nuxt.com/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **3D Graphics**: [Three.js](https://threejs.org/) (Custom GLSL Shaders)
+- **Data Validation**: [Zod v4](https://zod.dev/)
+- **Unit Testing**: [Vitest](https://vitest.dev/)
+- **Hosting**: Google Firebase Hosting (Static SSG)
+- **Asset Processing**: Sharp
